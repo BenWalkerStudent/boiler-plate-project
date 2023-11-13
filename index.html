@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>boiler plate project</title>
+</head>
+<body id="background">
+    <div class="container">
+        <img src="http://placekitten.com/300/200" alt="" class="im">
+        <p class="ins">this project is inside a small container,<br> you can click to add to the counter <br> or you can hold down to speed up the counter</p>
+        <p class="changing"> select your color : <span id="clr"></span></p>
+
+        <label for="red" class="lab">red</label>
+        <input type="range" name="red" id="red" value="0" min="0" max="255" oninput="f()">
+        <label for="green" class="lab">green</label>
+        <input type="range" name="green" id="green" value="139" min="0" max="255" oninput="h()">
+        <br>
+        <label for="blue" class="lb">blue</label>
+        <input type="range" name="blue" id="blue" value="168" min="0" max="255" oninput="s()">
+
+        <br>
+        <button onclick="onbtn()" id="btn"> BUTTON </button>
+
+        <p class="changing">counter: <span id="num"></span></p>
+
+    </div>
+    <script src="code.js">
+    </script>
+</body>
+</html>

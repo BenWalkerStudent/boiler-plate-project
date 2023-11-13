@@ -1,0 +1,82 @@
+#r {
+
+
+    color: rgb(238, 167, 167);
+
+
+}
+
+div {
+
+    align-content: center;
+
+
+}
+
+.lab {
+
+    font-family: arial;
+
+
+
+
+}
+
+.ins {
+
+  text-align: center;
+
+}
+
+.im{
+
+    display: block;
+
+    width: 25%;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+
+#btn {
+
+background-color: rgb(177, 47, 47);
+
+border: solid black 1px;
+
+border-radius: 4px;
+
+font-family: arial;
+
+position: relative;
+
+left:1238px;
+
+}
+
+#red, #green, .lab {
+
+    position: relative;
+
+    left: 1090px;    
+
+
+}
+
+#blue, .lb {
+
+    position: relative;
+
+    left: 1190px;
+
+}
+
+.changing {
+
+    text-align: center;
+
+
+
+}
